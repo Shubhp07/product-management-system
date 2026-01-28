@@ -1,0 +1,10 @@
+# Node
+node_modules/
+.env
+
+# Angular
+/dist/
+.angular/
+
+# Logs
+npm-debug.log*
