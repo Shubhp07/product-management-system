@@ -29,9 +29,15 @@ Before running this application, make sure you have installed:
 - npm (v7 or higher)
 - MySQL Server (v8.0 or higher)
 - Angular CLI (`npm install -g @angular/cli`)
+  
+## Project Screenshot
+
+<img width="1352" height="681" alt="Screenshot 2026-01-28 212552" src="https://github.com/user-attachments/assets/921a6e2a-b504-49ec-b29b-b977c43b59ce" />
+<img width="1353" height="625" alt="Screenshot 2026-01-28 212609" src="https://github.com/user-attachments/assets/644e5267-7202-4889-8b37-43f437611388" />
+<img width="1350" height="677" alt="Screenshot 2026-01-28 212623" src="https://github.com/user-attachments/assets/52148d34-5da4-4936-aa76-359a92ac499e" />
+<img width="1349" height="678" alt="Screenshot 2026-01-28 212635" src="https://github.com/user-attachments/assets/4443c046-57b7-41b7-9499-15ceca9f4c56" />
 
 ## Project Structure
-
 ```
 nodejs-crud-app/
 ├── backend/
