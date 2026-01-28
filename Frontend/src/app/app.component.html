@@ -1,0 +1,30 @@
+<div class="app-container">
+  <header class="header">
+    <h1>{{ title }}</h1>
+    <nav class="nav-tabs">
+      <button 
+        class="nav-tab" 
+        [class.active]="activeTab === 'categories'"
+        (click)="switchTab('categories')"
+      >
+        Category Master
+      </button>
+      <button 
+        class="nav-tab" 
+        [class.active]="activeTab === 'products'"
+        (click)="switchTab('products')"
+      >
+        Product Master
+      </button>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <app-category-list *ngIf="activeTab === 'categories'"></app-category-list>
+    <app-product-list *ngIf="activeTab === 'products'"></app-product-list>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Product Management System. Built with Node.js + Angular + MySQL</p>
+  </footer>
+</div>
